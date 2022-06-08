@@ -41,6 +41,7 @@ function AuthForm() {
       });
 
       if (!result.error) {
+        console.log('say something');
       }
     } else {
       try {
